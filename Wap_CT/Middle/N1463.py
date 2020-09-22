@@ -1,20 +1,3 @@
-# import sys
-# sys.setrecursionlimit(10**6)
-
-# def one(n):
-#     if n==1:
-#         return 1
-#     elif n<=0:
-#         return 0 
-#     else:
-#         return 1+min(one(n//3),one(n//2),one(n-1))
-
-# def main():
-#     n = one(int(sys.stdin.readline().rstrip()))
-#     print(n)
-
-# main()
-
 import sys
 sys.setrecursionlimit(10**6)
 
